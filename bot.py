@@ -1,15 +1,12 @@
 import time
+import os
 from datetime import datetime, timedelta
 import yfinance as yf
 from telegram import Bot
 from telegram.error import TelegramError
 
 # ========== YOUR CONFIGURATION ==========
-TELEGRAM_TOKEN = "Alexander Smart💠:
-Deepsek
-
-ALEXANDERSMITH Glo:
-8519743273:AAHrq5wIch4KzbK11Mzuc-EwgR14mD8ZtTI"
+TELEGRAM_TOKEN = os.environ.get('TOKEN_8519743273')
 CHAT_ID = "-1002187734732"
 
 # Trading parameters
